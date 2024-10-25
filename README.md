@@ -47,6 +47,13 @@ Good things to do:
 
 
 ## Branches: How you are supposed to use Git/Github (but I dont always...)
+What are branches for? 
+- Branches are a way to work on a project without affecting the main branch
+- Branches are a way to work on a project with other people without affecting the main branch
+- Main branch: Stuff you know works
+- Branches: Stuff you are working on, but don't want to mess up what you know already works 
+
+
 
 - Create a new branch:
 `git checkout -b new_branch_name`
