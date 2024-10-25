@@ -19,7 +19,7 @@ You now have a local copy of the repository on your machine.
 
 A README file is useful! It will render as the main page on GitHub. Useful for explaining what your project is, how to use it, and what is contained. 
 
-Write somethign here, or correct my typo!
+Write something here, or correct my typo!
 Save file 
 
 ### Version control: How/why
@@ -112,7 +112,15 @@ In general when making a repository, keep in mind:
 - Add a .gitignore file, using the R settings
 - Add a license 
 
+You can make one website based on your username, if you create a new repository titled 
+`username.github.io`
 
+
+You can turn any repository into a website
+
+
+(This repository is actually a github site!)
+https://empalmer.github.io/github_tutorial/
 
 ## Resources: 
 A great 
