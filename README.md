@@ -4,6 +4,9 @@ A github tutorial for fellow PhD Students at Oregon State University
 
 ## Forking an existing repository: 
 
+Forking: Make a copy of someone's public github repository to your own account.
+
+
 - Fork this repository! 
 - Clone the repository to your local machine: 
 Find the green "<> Code" button, and copy the URL 
@@ -16,8 +19,19 @@ You now have a local copy of the repository on your machine.
 
 ### Make some changes!
 
-Write something here, or correct my typo!
+Write somethign here, or correct my typo!
 Save file 
+
+### Version control: How/why
+You've made a change. Now you want to confirm you made a change, document that you have made a change, and save the change remotely. 
+
+Confirm you made a change: Git add 
+- Adds the saved version of the file to the staging area
+Document you made a change: Git commit
+- Commits the changes locally with a description of what you did
+Save the change remotely: Git push
+- Pushes the changes to the remote repository
+
 
 #### Option 1: Use R Studio's git interface
 - Go to the Git tab in the upper right hand corner of R Studio
@@ -34,6 +48,10 @@ Save file
 - `git commit -m "Your message here"`
 - `git push`
 
+
+### Overview: 
+- Add and commit are local 
+- Push and pull are to Github 
 
 ## Branches: How you are supposed to use Git/Github (but I dont always tbh)
 What are branches for?
@@ -62,12 +80,6 @@ What are branches for?
 - Use these tools to keep track of what you have done and why you have done it
 
 
-## Test 2 
-Make your own repository: 
-Good things to do: 
-- Add a README.md file
-- Add a .gitignore file, using the R settings
-- Add a license 
 
 
 ## Branches: How you are supposed to use Git/Github (but I dont always...)
@@ -86,6 +98,23 @@ What are branches for?
 - Push the changes to the remote repository
 - Create a pull request to merge the changes into the main branch
 - Merge the changes into the main branch
+
+
+## Review what you have done
+
+On github, check out the commits 
+
+
+## Make your own repository: 
+
+Students get free github education, which includes the ability to have private repositories (and github copilot). 
+
+Good things to do: 
+- Add a README.md file
+- Decide on private/public
+- Add a .gitignore file, using the R settings
+- Add a license 
+
 
 
 ## Resources: 
