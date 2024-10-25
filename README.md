@@ -28,8 +28,6 @@ Save file
 - Click "Push" to push the changes to the remote repository
 
 
-
-
 #### Option 2: Command line 
 - Open a terminal
 - Navigate to the repository
@@ -38,23 +36,39 @@ Save file
 - `git push`
 
 
+## Branches: How you are supposed to use Git/Github (but I dont always tbh)
+What are branches for?
+- Main branch: Stuff you know works
+- Branches: Stuff you are working on, but don't want to mess up what you know already works 
+- Branches are a way to work on a project with other people without conflicting
+
+
+- Create a new branch:
+`git checkout -b new_branch_name`
+- Make some changes
+- Commit the changes 
+
+- Push the branch to the remote repository
+`git push --set-upstream origin branch_test`
+
+- View the differences on GitHub and if you like the changes, merge the branches
+- Create a pull request 
+- Merge the branch to the main branch
+
+
+## Keep track of what you have done
+- Commit messages and Diff files!
+- Commit messages should be informative and concise
+- Diff files show what you have changed in a file
+- Use these tools to keep track of what you have done and why you have done it
+
+
 ## Test 2 
 Make your own repository: 
 Good things to do: 
 - Add a README.md file
 - Add a .gitignore file, using the R settings
 - Add a license 
-
-
-## Branches: How you are supposed to use Git/Github (but I dont always...)
-
-- Create a new branch:
-`git checkout -b new_branch_name`
-- Make some changes
-- Commit the changes
-- Push the changes to the remote repository
-- Create a pull request to merge the changes into the main branch
-- Merge the changes into the main branch
 
 
 ## Resources: 
