@@ -81,8 +81,10 @@ What are branches for?
 - Make some changes
 - Commit the changes 
 
+
 - Push the branch to the remote repository
 `git push --set-upstream origin branch_test`
+
 
 - View the differences on GitHub and if you like the changes, merge the branches
 - Create a pull request 
