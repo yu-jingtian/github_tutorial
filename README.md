@@ -1,11 +1,9 @@
 # github_tutorial
 A github tutorial for fellow PhD Students at Oregon State University
 
-
 ## Forking an existing repository: 
 
 Forking: Make a copy of someone's public github repository to your own account.
-
 
 - Fork this repository! 
 - Clone the repository to your local machine: 
@@ -18,6 +16,8 @@ File, New Project, Version Control, Git, paste the URL in the "Repository URL" b
 You now have a local copy of the repository on your machine.
 
 ### Make some changes!
+
+A README file is useful! It will render as the main page on GitHub. Useful for explaining what your project is, how to use it, and what is contained. 
 
 Write somethign here, or correct my typo!
 Save file 
@@ -49,11 +49,7 @@ Save the change remotely: Git push
 - `git push`
 
 
-### Overview: 
-- Add and commit are local 
-- Push and pull are to Github 
-
-## Branches: How you are supposed to use Git/Github (but I dont always tbh)
+## Branches: How you are supposed to use Git/Github (but I don't always tbh)
 What are branches for?
 - Main branch: Stuff you know works
 - Branches: Stuff you are working on, but don't want to mess up what you know already works 
@@ -72,6 +68,7 @@ What are branches for?
 - Create a pull request 
 - Merge the branch to the main branch
 
+- Return to the main branch and pull from github
 
 ## Keep track of what you have done
 - Commit messages and Diff files!
@@ -80,36 +77,16 @@ What are branches for?
 - Use these tools to keep track of what you have done and why you have done it
 
 
+- Add and commit are local 
+- Push and pull are to Github 
 
+## Make your own repository: - Github pages!
 
-## Branches: How you are supposed to use Git/Github (but I dont always...)
-What are branches for? 
-- Branches are a way to work on a project without affecting the main branch
-- Branches are a way to work on a project with other people without affecting the main branch
-- Main branch: Stuff you know works
-- Branches: Stuff you are working on, but don't want to mess up what you know already works 
-
-
-
-- Create a new branch:
-`git checkout -b new_branch_name`
-- Make some changes
-- Commit the changes
-- Push the changes to the remote repository
-- Create a pull request to merge the changes into the main branch
-- Merge the changes into the main branch
-
-
-## Review what you have done
-
-On github, check out the commits 
-
-
-## Make your own repository: 
+https://pages.github.com/
 
 Students get free github education, which includes the ability to have private repositories (and github copilot). 
 
-Good things to do: 
+In general when making a repository, keep in mind: 
 - Add a README.md file
 - Decide on private/public
 - Add a .gitignore file, using the R settings
