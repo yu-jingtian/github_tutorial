@@ -27,8 +27,10 @@ You've made a change. Now you want to confirm you made a change, document that y
 
 Confirm you made a change: Git add 
 - Adds the saved version of the file to the staging area
+
 Document you made a change: Git commit
 - Commits the changes locally with a description of what you did
+
 Save the change remotely: Git push
 - Pushes the changes to the remote repository
 
