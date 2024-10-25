@@ -25,6 +25,9 @@ Save file
 ### Version control: How/why
 You've made a change. Now you want to confirm you made a change, document that you have made a change, and save the change remotely. 
 
+Make sure you have the most updated version of the project: git pull
+- Gets the version of the project on GitHub
+
 Confirm you made a change: Git add 
 - Adds the saved version of the file to the staging area
 
@@ -50,6 +53,21 @@ Save the change remotely: Git push
 - `git commit -m "Your message here"`
 - `git push`
 
+## Important for stats projects: Git ignore: 
+Github will track everything in your repository, including data files. This is not good!
+If you have HUGE simulation files, this will usually break push/pull/tracking 
+
+Add any private data files and simulation folder items to the .gitignore file.
+
+Add a simulation folder to the project. 
+
+Don't track anything the simulation folder might contain to the .gitignore file by adding 
+`Simulation/`
+
+Save your .gitignore change and add/commit/push to your repository 
+
+Test it works! 
+Add a file in that folder, and try to push it to the repository. Will it show up?
 
 ## Branches: How you are supposed to use Git/Github (but I don't always tbh)
 What are branches for?
