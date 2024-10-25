@@ -2,8 +2,7 @@
 A github tutorial for fellow PhD Students at Oregon State University
 
 
-## Step 1 
-Forking an existing repository: 
+## Forking an existing repository: 
 
 - Fork this repository! 
 - Clone the repository to your local machine: 
@@ -69,6 +68,24 @@ Good things to do:
 - Add a README.md file
 - Add a .gitignore file, using the R settings
 - Add a license 
+
+
+## Branches: How you are supposed to use Git/Github (but I dont always...)
+What are branches for? 
+- Branches are a way to work on a project without affecting the main branch
+- Branches are a way to work on a project with other people without affecting the main branch
+- Main branch: Stuff you know works
+- Branches: Stuff you are working on, but don't want to mess up what you know already works 
+
+
+
+- Create a new branch:
+`git checkout -b new_branch_name`
+- Make some changes
+- Commit the changes
+- Push the changes to the remote repository
+- Create a pull request to merge the changes into the main branch
+- Merge the changes into the main branch
 
 
 ## Resources: 
